@@ -1,0 +1,104 @@
+.New {
+    display: flex;
+    background-color: #000000;
+    border: 1px solid #fff;
+    height: 100vh;
+    color: #fff;
+
+    .sidebar {
+        flex: 1;
+        border-right: 1px solid #fff;
+    }
+
+    .new-component {
+        flex: 4;
+        background-color: hsl(0, 0%, 0%);
+        padding: 2rem;
+        border-bottom: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .navbar {
+            margin-bottom: 3rem;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 1.75rem;
+            width: 100%;
+        }
+
+        .top {
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: -1px 0px 5px 2px rgb(135, 135, 135);
+            -webkit-box-shadow: -1px 0px 5px 2px rgb(138, 138, 138);
+            -moz-box-shadow: -1px 0px 5px 2px rgb(113, 113, 113);
+        }
+
+        .bottom {
+            padding: 1rem;
+            margin-top: 2rem;
+            border-radius: 10px;
+            display: flex;
+            box-shadow: -1px 0px 5px 2px rgb(135, 135, 135);
+            -webkit-box-shadow: -1px 0px 5px 2px rgb(138, 138, 138);
+            -moz-box-shadow: -1px 0px 5px 2px rgb(113, 113, 113);
+
+            .left{
+                flex: 1;
+                text-align: center;
+
+                img{
+                    width: 10rem;
+                    height: 10rem;
+                    border: 1px solid #fff;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+
+            .right{
+                flex: 2;
+
+                form{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 2rem;
+                    justify-content: space-around;
+
+                    .formItem{
+                        width: 40%;
+
+                        input{
+                            width: 100%;
+                            padding: 0.3rem;
+                            background-color: transparent;
+                            color: #fff;
+                            border: none;
+                            margin-top: 0.5rem;
+                            border-bottom: 1px solid #fff;
+                        }
+
+                        .upload{
+                            padding: 0.3rem; 
+                            margin-top: 0.5rem;
+                            width: 100%;
+                            background-color: red;
+                            border-radius: 5px;
+                            border: 1px solid #fff;
+                            cursor: pointer;
+                        }
+                    }
+
+                    button{
+                        width: 42%;
+                        cursor: pointer;
+                        border-radius: 5px;
+                        border: 1px solid #fff;
+                        background-color: red;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

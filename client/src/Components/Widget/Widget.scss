@@ -1,0 +1,68 @@
+.Widget {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #000000;
+    color: #fff;
+    margin-right: 0.5rem;
+    justify-content: space-between;
+    display: flex;
+    flex: 1;
+    box-shadow: -4px 0px 7px 9px rgba(110, 110, 110, 0.68);
+    -webkit-box-shadow: -2px 0px 7px 4px rgba(110, 110, 110, 0.68);
+    -moz-box-shadow: -4px 0px 7px 6px rgba(110, 110, 110, 0.68);
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: left;
+
+        span {
+            margin-bottom: 0.5rem;
+        }
+
+        .title {
+            color: #ff0000;
+            font-weight: 700;
+            font-size: 0.9rem;
+        }
+
+        .id {
+            color: #5d5d5d;
+        }
+
+        .link {
+            font-size: 0.7rem;
+            border-bottom: 1px solid #5d5d5d;
+            width: max-content;
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-size: 2rem;
+
+        .percentage {
+            font-size: 1rem;
+            display: flex;
+
+            &.positive {
+                color: green;
+            }
+
+            &.negative {
+                color: red;
+            }
+        }
+
+        #icon{
+            padding: 0.1rem;
+            background-color: red;
+            border-radius: 10px;
+            align-self: flex-end;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.site-items{
+    flex: 2;
+    margin: 1rem;
+    margin-left: 20rem;
+    
+    h3{
+        font-size: 1rem;
+        margin-top: 0.2rem;
+    }
+    img{
+        width: 2rem;
+        height: 2rem;
+        border-radius: 50%;
+        margin-top: -0.3rem;
+    }
+}
+
+.site-search{
+    flex: 1;
+    border: 1px solid #fff;
+    margin-top: 0.8rem;
+    height: 1.7rem;
+    width: fit-content;
+    margin-left: 2rem;
+    border-radius: 5px;
+
+    input{
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: #fff;
+        margin-top: 0.4rem;
+        width: 80%;
+        padding-left: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    #search{
+        margin-right: 0.5rem;
+        margin-top: 0.4rem;
+        float: right;
+    }
+}
+

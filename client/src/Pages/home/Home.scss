@@ -1,0 +1,48 @@
+.Home {
+    display: flex;
+    box-sizing: border-box;
+
+    .sidebar {
+        flex: 1;
+    }
+
+    .body-component {
+        flex: 4;
+        background-color: #000000;
+        padding: 2rem;
+        border: 1px ridge #fff;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+        .navbar {
+            margin-bottom: 3rem;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 1.75rem;
+            width: 100%;
+        }
+
+        .widgets,
+        .charts-container {
+            display: flex;
+            width: 100%;
+        }
+
+        .listContainer {
+            padding: 1rem;
+            border-radius: 10px;
+            border: 1px solid #fff;
+            background-color: #000000;
+            margin-top: 2rem;
+            color: #fff;
+            box-shadow: -4px 0px 7px 9px rgba(110, 110, 110, 0.68);
+            -webkit-box-shadow: -2px 0px 7px 4px rgba(110, 110, 110, 0.68);
+            -moz-box-shadow: -4px 0px 7px 6px rgba(110, 110, 110, 0.68);
+        }
+        .listTitle{
+            color: red;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+}
